@@ -7,7 +7,7 @@ function roundNum(num) {
 }
 
 
-/* Celcius Converter */
+/* -Celcius Converter -*/
 
 function convertCelcius() {
   const cTemp = parseFloat(celciusInput.value);
@@ -18,6 +18,7 @@ function convertCelcius() {
   kelvinInput.value = roundNum(kTemp)
 
 }
+
 
 /* Fahrenheit Converter */
 
